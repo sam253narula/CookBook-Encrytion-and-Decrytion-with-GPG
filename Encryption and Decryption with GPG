@@ -1,0 +1,7 @@
+Encryption and Decryption with GPG
+
+Install GPG:
+brew install gpg
+
+Decrypt Command: 
+gpg -d <filename.gpg>
