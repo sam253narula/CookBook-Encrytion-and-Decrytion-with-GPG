@@ -5,3 +5,26 @@ brew install gpg
 
 Decrypt Command: 
 gpg -d <filename.gpg>
+
+To open command Manual:
+gpg man
+
+// To create a gpg key
+gpg --full-gen-key
+
+Then choose 1 RSA, then enter all details as directed on the terminal
+
+//Now create a new file and encript it
+
+// simple command to create a file
+echo "Hello GPG, In would like to understand how do you Encrypt and Decrypt files"
+
+// Use below command to encrypt file
+gpg -r samarthnarula13@gmail.com -e file
+
+// Use the below command to decrypt file
+gpg -d <fileName.gpg> 
+
+//Decrypt and copy content to new file
+gpg -d <fileName.gpg> >> newFile
+
