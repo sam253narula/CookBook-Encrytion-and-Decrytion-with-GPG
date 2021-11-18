@@ -6,6 +6,9 @@ brew install gpg
 Decrypt Command: 
 gpg -d <filename.gpg>
 
+Ecrypt Command: 
+gpg -c <filename.gpg>
+
 To open command Manual:
 gpg man
 
